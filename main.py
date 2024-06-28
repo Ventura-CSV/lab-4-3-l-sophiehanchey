@@ -5,7 +5,7 @@ def main():
     for i in range(len(numbers)):
         numbers[i] = int(input('Enter a value: '))
 
-    for i in numbers:
+    for i in range(len(numbers)):
         total += numbers[i]
 
     # total = sum(numbers)
